@@ -1,0 +1,169 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylish header */
+header {
+    background-color: #d9ff00;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Stylish headers */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Add spacing to paragraphs */
+p {
+    margin-bottom: 2rem;
+}
+
+/* Enhanced main content */
+main {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylish navigation links */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Attractive buttons */
+.button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Enhanced project cards */
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slightly lift the card */
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.project-logo {
+    max-width: 80px; /* Adjust logo size as needed */
+    margin-right: 20px; /* Add spacing between logo and project info */
+}
+
+.project-card h3 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px; /* Add spacing between title and description */
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    flex-grow: 1; /* Allow description to grow in height */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Lift and slightly increase shadow on hover */
+    background-color: #f8f8f8; /* Change background color on hover for contrast */
+}
+
+
+/* Stylish footer */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stylish footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.home-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home-content {
+    flex: 1;
+  }
+  
+  .home-image img {
+    max-width: 50%; /* Decrease the image's max-width */
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Add a hover effect to the combined box */
+  .home-container:hover {
+    transform: scale(1.02); /* Enlarge the box on hover */
+  }
+  
+
+/* Style the custom jumbotron */
+.home-container .custom-jumbotron {
+    background-color: #ff8800; /* Change the background color */
+    color: #fff; /* Change the text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 18px; /* Change the font size */
+}
+
+.home-container .custom-jumbotron h2 {
+    font-size: 32px; /* Change the heading font size */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
